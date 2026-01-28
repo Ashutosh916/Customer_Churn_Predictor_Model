@@ -6,7 +6,6 @@ Production-style customer churn prediction using Logistic Regression and Random 
 This repository demonstrates an **end-to-end, production-style machine learning system** for predicting customer churn using **classical ML models**.  
 The focus of this project is not just model accuracy, but **real-world ML engineering practices** such as clean preprocessing pipelines, data leakage prevention, batch inference, and model comparison.
 
----
 
 ## 🚀 Project Overview
 
@@ -21,7 +20,6 @@ This project builds a churn prediction system that:
 
 The design mirrors how churn models are built and used in real companies.
 
----
 
 ## Key Concepts Demonstrated
 
@@ -31,24 +29,6 @@ The design mirrors how churn models are built and used in real companies.
 - Batch prediction workflow (CSV → CSV)
 - Production-oriented project structure
 - Responsible dataset usage and licensing awareness
-
-## 📁 Project Structure
-
-Root/
-│
-├── README.md
-├── requirements.txt
-├── train.py
-├── predict.py
-│
-├── src/
-│ ├── config.py # Feature lists, target name, constants
-│ ├── preprocess.py # ColumnTransformer and preprocessing logic
-│ ├── model.py # Model pipelines (Logistic, RandomForest)
-│ └── utils.py # Business logic helpers (risk buckets, etc.)
-│
-├── data/
-│ ├── sample_input.csv # Small sample for batch inference (Apache 2.0 licensed)
 
 ## Features Used
 
