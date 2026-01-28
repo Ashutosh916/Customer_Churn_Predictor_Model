@@ -7,7 +7,7 @@ This repository demonstrates an **end-to-end, production-style machine learning 
 The focus of this project is not just model accuracy, but **real-world ML engineering practices** such as clean preprocessing pipelines, data leakage prevention, batch inference, and model comparison.
 
 
-## 🚀 Project Overview
+## Project Overview
 
 Customer churn prediction helps businesses identify users who are likely to stop using a product or service.  
 This project builds a churn prediction system that:
