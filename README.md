@@ -71,11 +71,12 @@ The final model choice is based on **validation performance**, not complexity.
 ## How to Run
 
 - install everything mentioned in requirements.txt
+- run train.py from root after putting a train.csv(in data folder) file with the columns marked in *features used* section above
 - run python predict.py from root folder
 
 ## Input:
 
-data/sample_input.csv (randomly generated unseen data)
+data/sample_input.csv (randomly generated unseen data, you can use your own set of unseen data here)
 
 ## Output:
 
