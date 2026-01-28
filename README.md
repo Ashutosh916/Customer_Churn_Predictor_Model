@@ -104,7 +104,7 @@ This project intentionally uses classical ML models because:
 - LLMs are better suited for text understanding and explanation, not probability estimation
 - LLMs can complement this system later as an explanation layer, not as the predictor.
 
-- ## 📜 Data License & Attribution
+## 📜 Data License & Attribution
 
 This project was trained using data sourced from the Hugging Face dataset:
 
